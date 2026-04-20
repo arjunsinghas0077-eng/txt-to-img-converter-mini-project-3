@@ -1,9 +1,9 @@
 Simple Text-to-Image Converter (Mini-Project)
 
-This is a simple Python mini-project that converts a text prompt into a stylized image. It is designed to run easily on Windows, macOS, Linux, and Android with Python installed.
+This is a simple boof Python mini-project that converts a text prompt into a stylized image. It is designed to run easily on Windows, macOS, Linux, and Android with Python installed.
 
 Note: This project creates an image that displays your text prompt in a stylized way.
-It does not use advanced AI models to generate images based on the meaning of the prompt (e.g., “a dragon flying over a city”).
+It does not use advanced AI models to generate images based on the meaning of the prompt. i dont have the time of the resources currently lol.
 This keeps the project lightweight, easy to set up, and perfect for a mini-project.
 
 Requirements
@@ -37,18 +37,3 @@ python main.py "Your text prompt goes here"
 Example
 python main.py "Hello, this is my first text-to-image conversion using Python!" -o my_creation.png
 
-Optional Arguments
-Argument	Description	Default
-prompt	Required. The text you want to display in the image.	N/A
--o, --output	The filename for the generated image.	output.png
--W, --width	The width of the output image in pixels.	800
--H, --height	The height of the output image in pixels.	600
-Output
-
-The generated image will be saved in a folder named output_images inside the project directory.
-
-Project Structure
-text-to-image-converter/
-├── main.py             # The core Python script
-├── requirements.txt    # List of required Python packages
-└── README.md           # Project documentation
